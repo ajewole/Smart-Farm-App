@@ -17,7 +17,7 @@ export default function Resources({ navigation }) {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(false); // New state for loading
 
-  const API_KEY = "AIzaSyBJtweu9nWaqpiEVurK_9ljlVSt3b2HbjE"; // Replace with your own API key
+  const API_KEY = "##########"; // Replace with your own API key
 
   const searchYouTubeVideos = async (query, maxResults = 100) => {
     const BASE_URL = "https://www.googleapis.com/youtube/v3/search";
