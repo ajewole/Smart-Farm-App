@@ -49,7 +49,7 @@ export default function WeatherApp() {
   const fetchWeather = async () => {
     try {
       setLoading(true);
-      const apiKey = "e7cd8ecc5dc52215804155515faee862"; // Replace with your OpenWeatherMap API key
+      const apiKey = "###########"; // Replace with your OpenWeatherMap API key
       const { latitude, longitude } = location;
       const response = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`
